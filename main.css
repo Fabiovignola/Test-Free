@@ -1,0 +1,151 @@
+// TASK RELATED CODE
+
+
+
+* {
+    font-family: Roboto;
+}
+
+.task {
+    background-color: #F2F3F4;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+$card-bg: #fcfcfc;
+$card-title-color: #414141;
+$card-text-color: #4c4c4c;
+$icon-color: #6915B5;
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.card-container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: floralwhite;
+    background-color: $card-bg;
+    border-radius: 6px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+}
+
+.card-main {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+
+    .card-image {
+        position: relative;
+        background-image: url(https://via.placeholder.com/250x150?text=Image);
+        background-repeat: no-repeat;
+        min-height: 150px;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+
+    .card-info {
+        padding: 10px;
+
+        .card-title {
+            margin: 0;
+            font-size: 1.25rem;
+            font-weight: 500;
+            letter-spacing: .0125em;
+            color: $card-title-color;
+        }
+
+        .card-text {
+            color: $card-text-color;
+            line-height: 1.25rem;
+            font-weight: 400;
+            font-size: .875rem;
+            letter-spacing: .01786em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 10px 10px;
+}
+
+.btn {
+    position: relative;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: $icon-color;
+}
+
+.btn-text {
+    margin-left: 0;
+    margin-right: 8px;
+    padding: 0 8px;
+    font-weight: 500;
+    letter-spacing: .08929em;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 36px;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.btn-icon {
+    width: 36px;
+    height: 36px;
+    padding: 12px;
+    font-size: 24px;
+    display: inline-block;
+    background-color: #0000;
+    fill: currentColor;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+// Start adding your code from here
+// You can reuse the same classes
+
+button {
+    /*    width: 252px;*/
+    height: 252px;
+    /*
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+*/
+}
+
+#one {
+    background-image: url(megusta.jpg);
+
+}
+
+#two {
+    background-image: url(compartir.png);
+}
+
+a {
+    text-decoration: none;
+    text-align: justify;
+}
